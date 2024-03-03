@@ -100,15 +100,16 @@
   color: #fff;
 }
 
-#video_grid{
+#video_grid {
   flex-grow: 1;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 1rem;
-  background-color: var(var(--main-dark));
+  background-color: var(--main-dark);
 }
-video{
+
+video {
   height: 300px;
   border-radius: 1rem;
   margin: 0.5rem;
@@ -117,6 +118,10 @@ video{
   transform: rotateY(180deg);
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
+}
+
+.background_red {
+  background-color: #f6484a;
 }
 
 @media (max-width: 700px) {
